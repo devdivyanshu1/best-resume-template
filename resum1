@@ -100,7 +100,7 @@
 \begin{itemize}
   \item \textbf{Programming Languages:} C++, C, JavaScript
 \smallskip
-  \item \textbf{Frameworks \& Libraries:} HTML, CSS, ReactJS, NodeJS, ExpressJS, MongoDB, Firebase, SanityIO, Bootstrap, Tailwind CSS, Material UI
+  \item \textbf{Frameworks \& Libraries:} HTML, CSS, ReactJS, NodeJS, ExpressJS, MongoDB, Bootstrap, Tailwind CSS, Material UI
 \smallskip
   \item \textbf{Version Control:} Git, GitHub
 \smallskip
@@ -111,9 +111,13 @@
 \cvsection{Coursework}
 \begin{itemize}
   \item Operating Systems
+  \smallskip
   \item Computer Networks
+  \smallskip
   \item Object-Oriented Programming
+  \smallskip
   \item Database Management Systems
+  \smallskip
 \end{itemize}
 
 \end{document}
