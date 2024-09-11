@@ -1,0 +1,119 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+  \usepackage{hyperref}
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\fi
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Divyanshu Dev}
+\tagline{Software Engineer}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%\photo{3.3cm}{profile.jpg}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \phone{+91-8407096853}
+  \email{divyanshu.dev.cer21@itbhu.ac.in}
+%   \phone{000-00-0000}
+%  \mailaddress{Address, Street, 00000 County}
+  \location{New Delhi - India}
+%  \homepage{marissamayr.tumblr.com/}
+%  \twitter{@marissamayer}
+  \linkedin{\href{https://www.linkedin.com/in/divyanshu-dev-4b4a002a7/}{Linkedin}}
+  \github{\href{https://github.com/devdivyanshu1}{Github}}
+  \leetcode{\href{https://leetcode.com/u/divyanshudevv/}{Leetcode}}
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+
+\cvevent {Software Development Intern}{IT Jobxs}{\textbf{May 2024 --    July 2024}}{ \textbf{Remote}}
+
+\begin{itemize}
+\item  Enhanced webpage design and \textbf{development to achieve responsiveness}, ensuring optimal performance and accessibility across all devices and screen sizes, resulting in a 20\% increase in user engagement.
+\smallskip
+\item  Implemented user \textbf{verification and authentication }mechanisms on the IT JOBXS website, increasing account security .
+\smallskip
+\item Addressed engineering challenges by \textbf{detecting and removing} the fake bots and posts.
+\smallskip
+\item  Developed interactive web pages and integrated reCAPTCHA with the website \textbf{- Google Layer of Protection for websites.}
+\smallskip
+\item  \textbf{Exposure}: HTML, CSS, JS, BOOTSTAP, MySQL, PHP
+\divider
+%\divider
+
+\cvsection{Achievements}
+ \begin{itemize}
+     \item \textbf{Max Rating} on \href{https://www.codechef.com/users/divyanshu_dev}{Codechef} :1747(3 star).
+
+     \item \textbf{Max Rating} on \href{https://leetcode.com/u/divyanshudevv/}{Leetcode} :1779.
+
+     \item \textbf{Secured Global rank of  685} in Codechef Starters Round 144(Div 2).
+
+     \item \textbf{Secured Global rank of  113} in Codechef Starters(Div 4).
+
+     \item \textbf{Global rank of 1274} among 30,000+ in Leetcode Biweekly Contest 407.
+
+     \item \textbf{Solved 800+ problems} on Leetcode,Codechef and other coding platforms.
+     \item \textbf{Secured Global rank of 1717} in Leetcode Biweekly Contest 410.
+
+     \item Secured an \textbf{International rank 1843} and \textbf{Zonal rank 69} in Finals of 10th IMO.
+ \end{itemize}
+\end{itemize}
+\\
+\cvsection{Technical Skills}
+\begin{itemize}
+  \item \textbf{Programming Languages:} C++, C, JavaScript
+\smallskip
+  \item \textbf{Frameworks \& Libraries:} HTML, CSS, ReactJS, NodeJS, ExpressJS, MongoDB, Firebase, SanityIO, Bootstrap, Tailwind CSS, Material UI
+\smallskip
+  \item \textbf{Version Control:} Git, GitHub
+\smallskip
+  \item \textbf{Other Tools:} Postman, Netlify
+\smallskip
+\end{itemize}
+
+\cvsection{Coursework}
+\begin{itemize}
+  \item Operating Systems
+  \item Computer Networks
+  \item Object-Oriented Programming
+  \item Database Management Systems
+\end{itemize}
+
+\end{document}
