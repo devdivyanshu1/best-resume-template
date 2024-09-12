@@ -39,8 +39,13 @@
 
 % Header
 \name{Divyanshu Dev}
+  \smallskip
+    \smallskip
 \tagline{Software Engineer}
+  \smallskip
 %\photo{3.3cm}{profile.jpg}
+  \smallskip
+    \smallskip
 \personalinfo{
   \phone{+91-8407096853}
   \email{divyanshu.dev.cer21@itbhu.ac.in}
@@ -57,7 +62,10 @@
 
 % Make itemize environments slightly smaller
 \AtBeginEnvironment{itemize}{\small}
-
+  \smallskip
+    \smallskip
+      \smallskip
+        \smallskip
 % Experience section
 \cvsection[page1sidebar]{Experience}
 
@@ -75,11 +83,12 @@
    \smallskip
 \end{itemize}
 
-\divider
+
 
 % Achievements section
 \cvsection{Achievements}
 \begin{itemize}
+  \smallskip
   \item \textbf{Max Rating} on \href{https://www.codechef.com/users/divyanshu_dev}{CodeChef}: 1747 (3-star).
    \smallskip
   \item \textbf{Max Rating} on \href{https://leetcode.com/u/divyanshudevv/}{LeetCode}: 1779.
